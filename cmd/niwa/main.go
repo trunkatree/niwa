@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	n, err := fmt.Println("Hello, world!")
+	n, err := fmt.Println("Hello, world!", "...and", "Hello, world!")
 	if err != nil {
 		fmt.Println(err)
 	}
