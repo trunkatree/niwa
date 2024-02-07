@@ -5,9 +5,6 @@ import (
 )
 
 func main() {
-	n, err := fmt.Println("Hello, world!", "...and", "Hello, world!")
-	if err != nil {
-		fmt.Println(err)
-	}
+	n, _ := fmt.Println("Hello, world!", "...and", "Hello, world!")
 	fmt.Println(n, "bytes written.")
 }
